@@ -4,7 +4,7 @@ Tell the reader (someone who does not know anything about this project)
 all he/she needs to know. The comments should usually include at least:
 ------------------------------------------------------------------------
 
-PROJECT TITLE: BlueJ_10.ForLoopSeries
+PROJECT TITLE: BlueJ_10.Conditions
 PURPOSE OF PROJECT: Learning Java
 VERSION or DATE:
 HOW TO START THIS PROJECT:
