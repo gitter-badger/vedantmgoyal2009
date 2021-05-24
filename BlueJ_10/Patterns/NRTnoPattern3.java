@@ -5,7 +5,7 @@ import java.util.Scanner;
     2 3 4
     1 2 3 4
 */
-public class NumberPattern3 {
+public class NRTnoPattern3 {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter no. of lines to print : ");
