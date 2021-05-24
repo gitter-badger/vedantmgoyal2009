@@ -1,23 +1,22 @@
 package BlueJ_9.Conditions;
-
 import java.util.*;
 public class check_date {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter a date,month,year : ");
-        int d = sc.nextInt();
-        int m = sc.nextInt();
-        int y = sc.nextInt();
-        if (d <= 0 || m <= 0 || y <= 0 || d > 31 || m > 12) {
+        int d=sc.nextInt();
+        int m=sc.nextInt();
+        int y=sc.nextInt();
+        if(d<=0 || m<=0 || y<=0 || d>31 || m>12) {
             System.out.print("Invalid Date");
             System.exit(0);
-        } else if ((m == 4 || m == 6 || m == 9 || m == 11) && d == 31) {
+        } else if((m==4 || m==6 || m==9 || m==11) && d==31) {
             System.out.print("Invalid Date");
             System.exit(0);
-        } else if (m == 2 && (y % 400 == 0 || (y % 100 != 0 && y % 4 == 0)) && d > 29) {
+        } else if(m==2 && (y%400==0 || (y%100!=0 && y%4==0)) && d>29) {
             System.out.print("Invalid Date");
             System.exit(0);
-        } else if (m == 2 && d > 28) {
+        } else if(m==2 && d>28) {
             System.out.print("Invalid Date");
             System.exit(0);
         }
