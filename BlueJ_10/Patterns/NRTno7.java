@@ -5,7 +5,7 @@ import java.util.Scanner;
     1 3 5
     1 3 5 7
 */
-public class PatternX {
+public class NRTno7 {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter no. of lines to print : ");
