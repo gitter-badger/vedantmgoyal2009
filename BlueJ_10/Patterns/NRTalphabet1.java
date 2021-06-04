@@ -5,7 +5,7 @@ import java.util.Scanner;
     a b c
     a b c d
 */
-public class AlphabetPattern1 {
+public class NRTalphabet1 {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter no. of lines to print : ");
