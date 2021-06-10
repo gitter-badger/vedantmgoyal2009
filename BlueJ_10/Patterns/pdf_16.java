@@ -1,4 +1,9 @@
 package BlueJ_10.Patterns;
+/*  a b c d
+      a b c
+        a b
+          a
+*/
 import java.util.Scanner;
 public class pdf_16 {
     public static void main(String[] args) {
