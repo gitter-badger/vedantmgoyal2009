@@ -1,4 +1,4 @@
-package BlueJ_10.Patterns;
+package BlueJ_10.Patterns.pdf;
 /*  a b c d
       a b c
         a b

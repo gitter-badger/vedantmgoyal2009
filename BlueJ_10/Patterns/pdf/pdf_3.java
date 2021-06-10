@@ -1,4 +1,4 @@
-package BlueJ_10.Patterns;
+package BlueJ_10.Patterns.pdf;
 import java.util.Scanner;
 /*  1
     22

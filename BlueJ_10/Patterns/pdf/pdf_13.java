@@ -1,11 +1,11 @@
-package BlueJ_10.Patterns;
-/*  4 3 2 1
-      3 2 1
-        2 1
-          1
+package BlueJ_10.Patterns.pdf;
+/* 1 2 3 4
+     1 2 3
+       1 2
+         1
 */
 import java.util.Scanner;
-public class pdf_14 {
+public class pdf_13 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter no. of lines to print : ");
@@ -13,7 +13,7 @@ public class pdf_14 {
         for(int i=lines;i>=1;i--) {
             for(int j=lines;j>i;j--)
                 System.out.print("  ");
-            for(int j=i;j>=1;j--)
+            for(int j=1;j<=i;j++)
                 System.out.print(j+" ");
             System.out.println();
         }
