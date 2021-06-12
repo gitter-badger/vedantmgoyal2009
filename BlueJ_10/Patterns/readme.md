@@ -14,7 +14,7 @@
 | NP      | Normal Pyramid  |
 | FP      | Flipped Pyramid |
 
-## Combined Triangles
+## Combined patterns using above two types
 | Acronym | Description |
 | :----:  | :----:      |
 | WG      | Watch Glass |
