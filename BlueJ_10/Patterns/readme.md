@@ -1,11 +1,20 @@
 # BlueJ_10.Patterns [bittu-java]
+
 ## Triangles
-NRT  -> Normal Right Triangle
-MRT  -> Mirrored Right Triangle
-FRT  -> Flipped Right Triangle
-MFRT -> Mirrored Flipped Right Triangle
+| Acronym | Description                     |
+| :----:  | :----:                          |
+| NRT     | Normal Right Triangle           |
+| MRT     | Mirrored Right Triangle         |
+| FRT     | Flipped Right Triangle          |
+| MFRT    | Mirrored Flipped Right Triangle |
+
 ## Pyramids
-NP   -> Normal Pyramid
-FP   -> Flipped Pyramid
+| Acronym | Description     |
+| :----:  | :----:          |
+| NP      | Normal Pyramid  |
+| FP      | Flipped Pyramid |
+
 ## Combined Triangles
-WG   -> Watch Glass
+| Acronym | Description |
+| :----:  | :----:      |
+| WG      | Watch Glass |
