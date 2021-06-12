@@ -1,3 +1,4 @@
+# python 3
 camel = r"""
 Switching on the camera in the camel habitat...
  ___.-''''-.

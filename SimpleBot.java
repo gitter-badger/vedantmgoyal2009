@@ -1,4 +1,3 @@
-package BlueJ_9;
 import java.util.Scanner;
 import static java.lang.System.exit;
 public class SimpleBot {
