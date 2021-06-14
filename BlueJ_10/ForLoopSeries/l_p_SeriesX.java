@@ -7,9 +7,8 @@ public class l_p_SeriesX {
         System.out.print("Enter X and no. of terms : ");
         int x=sc.nextInt(),n=sc.nextInt();
         double s=0,f=1;
-        for(int i=1;i<=n;i++,f=1) {
-            for(int findFactorial=1;findFactorial<=i;findFactorial++)
-                f*=findFactorial;
+        for(int i=1;i<=n;i++) {
+            f*=i;
             s+=x/f;
             System.out.print(x+"/"+f);
             if(i!=n)
