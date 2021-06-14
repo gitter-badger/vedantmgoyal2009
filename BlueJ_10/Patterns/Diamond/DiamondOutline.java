@@ -1,6 +1,6 @@
-package BlueJ_10.Patterns;
+package BlueJ_10.Patterns.Diamond;
 import java.util.Scanner;
-public class HollowTriangleMould {
+public class DiamondOutline {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter no. of lines to print : ");
@@ -9,12 +9,27 @@ public class HollowTriangleMould {
             for(int j=lines;j>i;j--)
                 System.out.print("  ");
             for(int j=1;j<=i;j++)
-                if(j==1 || i==lines)
+                if(j==1)
                     System.out.print("* ");
                 else
                     System.out.print("  ");
             for(int j=2;j<=i;j++)
-                if(j==i || i==lines)
+                if(j==i)
+                    System.out.print("* ");
+                else
+                    System.out.print("  ");
+            System.out.println();
+        }
+        for(int i=lines-1;i>=1;i--) {
+            for(int j=lines;j>i;j--)
+                System.out.print("  ");
+            for(int j=1;j<=i;j++)
+                if(j==1)
+                    System.out.print("* ");
+                else
+                    System.out.print("  ");
+            for(int j=2;j<=i;j++)
+                if(j==i)
                     System.out.print("* ");
                 else
                     System.out.print("  ");

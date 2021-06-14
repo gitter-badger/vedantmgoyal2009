@@ -8,12 +8,6 @@
 | FRT          | Flipped Right Triangle          |
 | MFRT         | Mirrored Flipped Right Triangle |
 
-## Pyramids
-| Acronym Used | Description     |
-| :----:       | :----:          |
-| NP           | Normal Pyramid  |
-| FP           | Flipped Pyramid |
-
 ## Combined patterns using above two types
 | Acronym Used | Description |
 | :----:       | :----:      |

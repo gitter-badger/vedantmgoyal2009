@@ -1,11 +1,11 @@
-package BlueJ_10.Patterns;
+package BlueJ_10.Patterns.Pyramid;
 /*        *
         * * *
       * * * * *
     * * * * * * *
 */
 import java.util.Scanner;
-public class NPstar {
+public class NormalStar {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter no. of lines to print : ");
