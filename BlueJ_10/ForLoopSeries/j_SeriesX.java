@@ -7,9 +7,8 @@ public class j_SeriesX {
         System.out.print("Enter no. of terms : ");
         int n=sc.nextInt();
         double s=0,f=1;
-        for(int i=1;i<=n;i++,f=1) {
-            for(int findFactorial=1;findFactorial<=i;findFactorial++)
-                f*=findFactorial;
+        for(int i=1;i<=n;i++) {
+            f*=i;
             s+=i/f;
             System.out.print(i+"/"+i+"!");
             if(i!=n)
