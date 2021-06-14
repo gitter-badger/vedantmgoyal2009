@@ -8,15 +8,14 @@ public class m_SeriesX {
         int x=sc.nextInt(),n=sc.nextInt();
         double f=1,s=1;
         System.out.print("1");
-        for (int i=2;i<=n;i++,f=1) {
-            for(int findFactorial=1;findFactorial<=i;findFactorial++)
-                f*=findFactorial;
+        for (int i=2;i<=n;i++) {
+            f*=i;
             if(i%2==0) {
-                s-=Math.pow(x,(i/f));
+                s-=(Math.pow(x,i))/f;
                 System.out.print(" - "+x+"^"+i+"/"+f);
             }
             else {
-                s+=Math.pow(x,(i/f));
+                s+=(Math.pow(x,i))/f;
                 System.out.print(" + "+x+"^"+i+"/"+f);
             }
         }

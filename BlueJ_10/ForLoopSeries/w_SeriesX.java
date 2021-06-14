@@ -8,9 +8,8 @@ public class w_SeriesX {
         int x=sc.nextInt(),n=sc.nextInt(),term=1;
         double f=1,s=1+x;
         System.out.print("1 + "+x);
-        for(int i=3;i<=n;i++,f=1,term++) {
-            for(int findFactorial=1;findFactorial<=term;findFactorial++)
-                f*=findFactorial;
+        for(int i=3;i<=n;i++,term++) {
+            f*=(i-2);
             s+=(Math.pow(x,term)/f);
             System.out.print(" + "+Math.pow(x,term)+"/"+f);
         }
