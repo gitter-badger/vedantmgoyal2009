@@ -9,9 +9,8 @@ public class c_SeriesX {
         double f=1,s=1;
         System.out.print("1");
         for (int i=2;i<=n;i++,f=1) {
-            for(int findFactorial=1;findFactorial<=i;findFactorial++)
-                f*=findFactorial;
-            s+=Math.pow(x,(i/f));
+            f*=i;
+            s+=(Math.pow(x,i))/f;
             System.out.print(" + "+x+"^"+i+"/"+f);
         }
         System.out.println("\nSum : "+s);
