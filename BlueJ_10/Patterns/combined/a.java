@@ -1,6 +1,6 @@
-package BlueJ_10.Patterns;
+package BlueJ_10.Patterns.combined;
 import java.util.Scanner;
-public class combined1 {
+public class a {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter no. of lines to print : ");
