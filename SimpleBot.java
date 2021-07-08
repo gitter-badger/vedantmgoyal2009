@@ -9,20 +9,17 @@ public class SimpleBot {
         count();
         test();
     }
-
-private static void greet(String assistantName, String birthYear) {
+    private static void greet(String assistantName, String birthYear) {
         System.out.println("Hello! I am " + assistantName + ".");
         System.out.println("I was created in " + birthYear + ".");
         System.out.println("Please, remind me your name.");
     }
-
-private static void remindName() {
+    private static void remindName() {
         System.out.print(">");
         String name = scanner.nextLine();
         System.out.println("What a great name you have, " + name + "!");
     }
-
-private static void guessAge() {
+    private static void guessAge() {
         System.out.println("Let me guess your age.");
         System.out.println("Say me remainders of dividing your age by 3, 5 and 7.");
         System.out.print(">");
@@ -34,8 +31,7 @@ private static void guessAge() {
         int age = (rem3 * 70 + rem5 * 21 + rem7 * 15) % 105; // formula for age
         System.out.println("Your age is " + age + "; that's a good time to start programming!");
     }
-
-private static void count() {
+    private static void count() {
         System.out.println("Now I will prove to you that I can count to any number you want.");
         System.out.print(">");
         int num = scanner.nextInt();
@@ -43,8 +39,7 @@ private static void count() {
             System.out.printf("%d!\n", i); // using printf()
         }
     }
-
-private static void test() {
+    private static void test() {
         System.out.println("Let's test your programming knowledge.");
         // write your code here
         System.out.println("Why do we use methods?");
@@ -54,11 +49,10 @@ private static void test() {
         System.out.println("4. To interrupt the execution of a program.");
         check();
     }
-
-private static void check() {
+    private static void check() {
         System.out.print(">");
         int ans = scanner.nextInt();
-        if (ans == 2) {
+        if(ans == 2) {
             end();
         }
         else {
@@ -66,8 +60,7 @@ private static void check() {
             check();
         }
     }
-
-private static void end() {
+    private static void end() {
         System.out.println("Congratulations, have a nice day!");
         exit(0);
     }
