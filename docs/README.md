@@ -1,5 +1,5 @@
-## Hello everyone 👋
-- 🙂 I’m @vedantmgoyal2009
+## Java Programming
+- 👋 I’m @vedantmgoyal2009
 - 👀 I’m interested in AI, Machine Learning.
 - 🌱 I’m currently learning Java.
 - 💞️ I’m looking to collaborate on Java Projects.
