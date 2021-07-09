@@ -12,4 +12,4 @@
 
 [![CodeQL](https://github.com/vedantmgoyal2009/vedantmgoyal2009/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/vedantmgoyal2009/bittu-java/actions/workflows/codeql-analysis.yml)
 [![Codacy Security Scan](https://github.com/vedantmgoyal2009/vedantmgoyal2009/actions/workflows/codacy-analysis.yml/badge.svg)](https://github.com/vedantmgoyal2009/bittu-java/actions/workflows/codacy-analysis.yml)
-[![code quality](https://app.codacy.com/project/badge/Grade/0ab7c5cabdfa451995ee519f2b4edf00)](https://www.codacy.com/gh/vedantmgoyal2009/bittu-java/dashboard)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/0ab7c5cabdfa451995ee519f2b4edf00)](https://www.codacy.com/gh/vedantmgoyal2009/vedantmgoyal2009/dashboard)
