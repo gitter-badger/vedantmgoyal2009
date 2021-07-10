@@ -1,4 +1,4 @@
-## Java Programming
+## Learning Java for Beginners
 - 👋 I’m @vedantmgoyal2009
 - 👀 I’m interested in AI, Machine Learning.
 - 🌱 I’m currently learning Java.
