@@ -21,5 +21,6 @@ public class DateValidityLeap
             System.out.print("Invalid");   
         else
             System.out.print("Valid");
+            sc.close();
     }
 }

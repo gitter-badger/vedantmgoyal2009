@@ -18,5 +18,6 @@ public class corona_number {
             System.out.println("Corona Number");
         else
             System.out.println("Not a Corona Number");
+        sc.close();
     }
 }

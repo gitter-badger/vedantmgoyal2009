@@ -1,5 +1,5 @@
 package BlueJ_10;
-import java.util.*;
+import java.util.Scanner;
 class FactorsCount
 {
     public static void main(String[] args)
@@ -11,5 +11,6 @@ class FactorsCount
             if(n%i==0)
                 c++;
         System.out.println("No. of factors : "+c);
+        sc.close();
     }
 }

@@ -20,5 +20,6 @@ public class DownHollowStar {
                     System.out.print("  ");
             System.out.println();
         }
+        sc.close();
     }
 }

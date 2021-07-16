@@ -19,5 +19,6 @@ class ReverseUpperLowerNestedLoopWithZero2
             }
             System.out.println();
         }
+        sc.close();
     }
 }

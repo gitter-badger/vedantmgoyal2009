@@ -11,5 +11,6 @@ public class q_SeriesX {
                 System.out.print(", ");
             System.out.print(i*i*i);
         }
+        sc.close();
     }
 }

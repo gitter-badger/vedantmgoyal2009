@@ -6,5 +6,6 @@ class OneZeroWithoutIf {
         System.out.print("Enter 0 or 1 : ");
         int n=sc.nextInt();
         System.out.print(1-n);
+        sc.close();
     }
 }

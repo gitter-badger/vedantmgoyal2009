@@ -18,5 +18,6 @@ public class GreatestOf3_Nested2 {
             else
                 System.out.print("Greatest no. : "+c);
         }
+        sc.close();
     }
 }

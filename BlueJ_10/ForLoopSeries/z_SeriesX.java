@@ -10,5 +10,6 @@ public class z_SeriesX {
             for(int c=1;c<=i;c++)
                 s+=c;
         System.out.print(s+" ");
+        sc.close();
     }
 }

@@ -11,5 +11,6 @@ public class bb_SeriesX {
                 s+=c;
             System.out.print(s+" ");
         }
+        sc.close();
     }
 }

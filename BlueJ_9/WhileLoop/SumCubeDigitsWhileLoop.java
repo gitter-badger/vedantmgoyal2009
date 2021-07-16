@@ -13,5 +13,6 @@ public class SumCubeDigitsWhileLoop
             n=n/10;
         }
         System.out.println("Sum of the cube of digits = "+s);
+        sc.close();
     }
 }

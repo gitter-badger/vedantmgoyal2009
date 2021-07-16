@@ -13,5 +13,6 @@ class Series_1_2_4_7
             if(i!=n-1)
                 System.out.print(", ");
         }
+        sc.close();
     }
 }

@@ -13,5 +13,6 @@ public class SumDigits
         for(i=n;i!=0;i=i/10)
             s=s+i%10;
         System.out.print("Sum = "+s);
+        sc.close();
     }
 }

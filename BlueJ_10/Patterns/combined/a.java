@@ -23,5 +23,6 @@ public class a {
                 System.out.print(j+" ");
             System.out.println();
         }
+        sc.close();
     }
 }

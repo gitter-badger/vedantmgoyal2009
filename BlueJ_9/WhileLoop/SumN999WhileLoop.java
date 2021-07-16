@@ -17,5 +17,6 @@ public class SumN999WhileLoop
                 sum+=n;
                                     
         }        
+        sc.close();
     }
 }

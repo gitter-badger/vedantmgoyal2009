@@ -15,5 +15,6 @@ public class TriangleMouldNo {
                 System.out.print(j);
             System.out.println();
         }
+        sc.close();
     }
 }

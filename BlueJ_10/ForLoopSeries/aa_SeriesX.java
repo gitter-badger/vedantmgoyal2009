@@ -22,5 +22,6 @@ public class aa_SeriesX {
             }
         }
         System.out.print("\nSum : "+s);
+        sc.close();
     }
 }

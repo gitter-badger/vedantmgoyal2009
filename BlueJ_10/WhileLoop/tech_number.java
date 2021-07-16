@@ -18,7 +18,8 @@ public class tech_number {
         }
         if(c%2==0 && (int)Math.pow((n/(int)Math.pow(10,c/2))+(n%(int)Math.pow(10,c/2)),2)==n)
                 System.out.println(n+" is a tech number");
-            else
-                System.out.println(n+" is not a tech number");
+        else
+            System.out.println(n+" is not a tech number");
+        sc.close();
     }
 }

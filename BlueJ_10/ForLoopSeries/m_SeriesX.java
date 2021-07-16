@@ -20,5 +20,6 @@ public class m_SeriesX {
             }
         }
         System.out.println("\nSum : "+s);
+        sc.close();
     }
 }

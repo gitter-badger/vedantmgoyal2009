@@ -21,5 +21,6 @@ class NegativePositiveWhileLoop
         System.out.println("Negative numbers : "+cn);
         System.out.println("Positive numbers : "+cp);
         System.out.println("Zero : "+(n-cp-cn));
+        sc.close();
     }
 }

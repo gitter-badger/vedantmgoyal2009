@@ -16,5 +16,6 @@ class VeryImpArmstrongWhileLoop
             System.out.print("Armstrong number");
         else
             System.out.print("Not Armstrong number");
+        sc.close();    
     }
 }

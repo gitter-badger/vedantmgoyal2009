@@ -17,5 +17,6 @@ public class peterson_number {
             System.out.println("Peterson Number");
         else
             System.out.println("Not a Peterson Number");
+        sc.close();
     }
 }

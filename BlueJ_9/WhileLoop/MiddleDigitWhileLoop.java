@@ -15,5 +15,6 @@ class MiddleDigitWhileLoop
         }
         n=(n/((int)Math.pow(10,c/2))%10);
         System.out.print("Middle digit : "+n);
+        sc.close();
     }
 }

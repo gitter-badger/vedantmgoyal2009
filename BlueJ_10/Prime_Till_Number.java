@@ -12,5 +12,6 @@ public class Prime_Till_Number {
             if(c==2)
                 System.out.println(i);
         }
+        sc.close();
     }
 }

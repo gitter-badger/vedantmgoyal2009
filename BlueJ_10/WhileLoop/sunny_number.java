@@ -13,5 +13,6 @@ public class sunny_number {
             System.out.println("Sunny Number");
         else
             System.out.println("Not a Sunny Number");
+        sc.close();
     }
 }

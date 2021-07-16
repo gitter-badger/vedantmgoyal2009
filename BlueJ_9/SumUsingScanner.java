@@ -11,5 +11,6 @@ class SumUsingScanner
         a=sc.nextInt();        
         b=sc.nextInt();        
         System.out.print("Sum = "+(a+b));
+        sc.close();
     }
 }

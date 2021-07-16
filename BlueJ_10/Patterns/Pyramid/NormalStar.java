@@ -19,5 +19,6 @@ public class NormalStar {
                 System.out.print("* ");
             System.out.println();
         }
+        sc.close();
     }
 }

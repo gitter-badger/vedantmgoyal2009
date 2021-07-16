@@ -14,5 +14,6 @@ public class h_SeriesX {
             if (i != n)
                 System.out.print(", ");
         }
+        sc.close();
     }
 }

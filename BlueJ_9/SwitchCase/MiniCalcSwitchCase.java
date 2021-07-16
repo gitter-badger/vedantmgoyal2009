@@ -29,5 +29,6 @@ class MiniCalcSwitchCase
                 System.out.print("INVALID CHOICE");
                 break;
         }
+        sc.close();
     }
 }

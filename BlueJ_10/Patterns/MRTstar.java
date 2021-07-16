@@ -17,5 +17,6 @@ public class MRTstar {
                 System.out.print("* ");
             System.out.println();
         }
+        sc.close();
     }
 }

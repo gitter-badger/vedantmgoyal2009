@@ -20,5 +20,6 @@ public class SumFLand2F2LWhileLoop
             r/=10;
             c=c-2;
         }
+        sc.close();
     }
 }

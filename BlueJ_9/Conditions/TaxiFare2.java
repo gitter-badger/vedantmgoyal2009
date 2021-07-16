@@ -28,5 +28,6 @@ class TaxiFare2
         else
             f=90+(Math.ceil((d-20)/5.0))*10;
         System.out.println("Fare for "+d+" km = "+f);
+        sc.close();
     }
 }

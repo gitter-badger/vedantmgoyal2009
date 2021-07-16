@@ -15,5 +15,6 @@ public class NRTno3 {
                 System.out.print(1-j%2+" ");
             System.out.println();
         }
+        sc.close();
     }
 }

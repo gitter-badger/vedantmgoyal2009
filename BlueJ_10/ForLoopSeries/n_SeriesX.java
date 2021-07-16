@@ -13,5 +13,6 @@ public class n_SeriesX {
             System.out.print(i);
         }
         System.out.println("\nSum : "+sum);
+        sc.close();
     }
 }

@@ -13,6 +13,7 @@ public class a_SeriesX {
             System.out.print(i+"^"+i);
         }
         System.out.print("\nSum : "+s);
+        sc.close();
 
     }
 }

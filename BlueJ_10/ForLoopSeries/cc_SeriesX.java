@@ -14,5 +14,6 @@ public class cc_SeriesX {
             if(i!=1 && i!=n+1)
                 System.out.print(", ");
         }
+        sc.close();
     }
 }

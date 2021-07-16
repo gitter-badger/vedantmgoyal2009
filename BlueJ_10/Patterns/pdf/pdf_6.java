@@ -13,5 +13,6 @@ public class pdf_6 {
                     System.out.print(0+" ");
             System.out.println();
         }
+        sc.close();
     }
 }

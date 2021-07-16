@@ -18,5 +18,6 @@ class FrequencyEveryDigit
             if(c>=1)
                 System.out.println(i+"\t\t"+c);
         }
+        sc.close();
     }
 }

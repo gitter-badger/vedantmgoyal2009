@@ -14,5 +14,6 @@ public class w_SeriesX {
             System.out.print(" + "+Math.pow(x,term)+"/"+f);
         }
         System.out.print("\nSum : "+s);
+        sc.close();
     }
 }

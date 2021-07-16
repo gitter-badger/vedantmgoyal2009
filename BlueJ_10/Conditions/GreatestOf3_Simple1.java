@@ -13,5 +13,6 @@ public class GreatestOf3_Simple1 {
             System.out.print("Greatest no. : "+b);
         else
             System.out.print("Greatest no. : "+c);
+            sc.close();
     }
 }

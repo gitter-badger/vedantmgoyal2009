@@ -18,5 +18,6 @@ class MagicNoNestedWhileLoop {
             System.out.print("Magic number");
         else
             System.out.print("Not a magic number");
+        sc.close();
     }
 }

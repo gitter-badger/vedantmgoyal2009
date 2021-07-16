@@ -23,6 +23,7 @@ public class BarfiStar {
                 System.out.print("* ");
             System.out.println();
         }
+        sc.close();
     }
 }
 

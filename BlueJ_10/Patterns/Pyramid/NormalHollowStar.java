@@ -20,5 +20,6 @@ public class NormalHollowStar {
                     System.out.print("  ");
             System.out.println();
         }
+        sc.close();
     }
 }

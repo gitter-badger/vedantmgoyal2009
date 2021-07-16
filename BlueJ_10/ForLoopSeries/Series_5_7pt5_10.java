@@ -15,5 +15,6 @@ class Series_5_7pt5_10
             if(i!=n)
                 System.out.print(", ");
         }
+        sc.close();
     }
 }

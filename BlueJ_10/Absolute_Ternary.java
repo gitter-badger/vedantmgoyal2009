@@ -6,5 +6,6 @@ public class Absolute_Ternary {
         System.out.print("Enter a no. : ");
         double n=sc.nextDouble();
         System.out.print("Absolute value of "+n+" = "+(n<0?-n:n));
+        sc.close();
     }
 }

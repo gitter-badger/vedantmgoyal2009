@@ -16,5 +16,6 @@ public class pdf_3 {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

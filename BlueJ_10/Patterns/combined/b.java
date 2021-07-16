@@ -26,5 +26,6 @@ public class b {
                 System.out.print(j+" ");
             System.out.println();
         }
+        sc.close();
     }
 }

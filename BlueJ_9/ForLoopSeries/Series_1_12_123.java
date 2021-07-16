@@ -13,5 +13,6 @@ class Series_1_12_123
             a=a*10+i;
             System.out.println(a);
         }
+        sc.close();
     }
 }

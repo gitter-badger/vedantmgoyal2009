@@ -18,5 +18,6 @@ public class KaprekarNoWhileLoop
             System.out.print("The number "+n+" is a Kaprekar No. ");
         else
             System.out.print("The number "+n+" is not a Kaprekar No. ");
+        sc.close();
     }
 }

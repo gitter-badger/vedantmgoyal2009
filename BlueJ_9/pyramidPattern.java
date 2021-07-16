@@ -22,5 +22,6 @@ public class pyramidPattern
             System.out.println();
             t1++;
         }
+        sc.close();
     } 
 }

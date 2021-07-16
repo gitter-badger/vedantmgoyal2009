@@ -14,5 +14,6 @@ class SumPrimeDigitsWhileLoop
             n=n/10;
         }
         System.out.println("Sum of prime digits of a number : "+s);
+        sc.close();
     }
 }

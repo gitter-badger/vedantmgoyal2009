@@ -14,5 +14,6 @@ class EvenNoSumWhileLoop
             i+=2;
         }
         System.out.println("Sum : "+sum);
+        sc.close();
     }
 }

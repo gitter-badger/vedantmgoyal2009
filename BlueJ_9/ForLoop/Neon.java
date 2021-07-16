@@ -15,5 +15,6 @@ class Neon
             System.out.print("Neon");
         else
             System.out.print("Not Neon");
+        sc.close();
     }
 }

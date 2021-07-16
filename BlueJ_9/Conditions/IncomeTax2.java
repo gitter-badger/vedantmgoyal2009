@@ -23,6 +23,7 @@ public class IncomeTax2
         else
             tax=18000+100000+(inc-800000)*0.3;
         System.out.println("Annual Income = "+inc);
-        System.out.println("Income Tax  = "+tax);        
+        System.out.println("Income Tax  = "+tax);    
+        sc.close();    
     }
 }

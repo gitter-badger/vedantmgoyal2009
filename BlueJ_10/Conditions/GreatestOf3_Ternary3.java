@@ -7,5 +7,6 @@ class GreatestOf3_Ternary3 {
         System.out.print("Enter 3 numbers : ");
         int a=sc.nextInt(),b=sc.nextInt(),c=sc.nextInt();
         System.out.print("Greatest No. : "+(a>b && a>c?a:(b>c?b:c)));
+        sc.close();
     }
 }

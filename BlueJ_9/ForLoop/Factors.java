@@ -11,5 +11,6 @@ class Factors
             if(n%i==0)
                 c++;
         System.out.println(c);
+        sc.close();
     }
 }

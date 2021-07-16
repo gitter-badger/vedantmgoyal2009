@@ -14,5 +14,6 @@ public class c_SeriesX {
             System.out.print(" + "+x+"^"+i+"/"+f);
         }
         System.out.println("\nSum : "+s);
+        sc.close();
     }
 }

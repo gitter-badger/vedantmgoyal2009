@@ -12,5 +12,6 @@ public class k_o_SeriesX {
             System.out.print(" + "+x+"^"+i);
         }
         System.out.println("\nSum : "+sum);
+        sc.close();
     }
 }

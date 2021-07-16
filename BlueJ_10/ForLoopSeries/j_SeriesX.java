@@ -15,5 +15,6 @@ public class j_SeriesX {
                 System.out.print(" + ");
         }
         System.out.println("\nSum : "+s);
+        sc.close();
     }
 }

@@ -31,5 +31,6 @@ class TaxiFareUT2
         System.out.println("Taxi number : "+taxiNo);
         System.out.println("Distance : "+d);        
         System.out.println("Payable Amount : "+amt);        
+        sc.close();
     }
 }

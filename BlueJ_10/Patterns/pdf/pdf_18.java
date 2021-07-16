@@ -17,5 +17,6 @@ public class pdf_18 {
                 System.out.print(j+" ");
             System.out.println();
         }
+        sc.close();
     }
 }

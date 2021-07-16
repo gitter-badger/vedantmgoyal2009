@@ -15,6 +15,7 @@ class SeriesSum_xpow1_xpow3_xpow5_xpow_n {
             sum+=(int)Math.pow(x,pow);
             pow+=2;
         }
-        System.out.println("sum="+sum);        
+        System.out.println("sum="+sum);      
+        sc.close();  
     }
 }

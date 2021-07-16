@@ -22,5 +22,6 @@ class Leap_Nested2
             else
                 System.out.print("Not Leap");    
         }
+        sc.close();
     }
 }

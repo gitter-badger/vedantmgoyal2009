@@ -13,5 +13,6 @@ class u_SeriesX_Fibonacci {
             a=b;
             b=c;
         }
+        sc.close();
     }
 }

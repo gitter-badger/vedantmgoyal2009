@@ -12,5 +12,6 @@ class IfAbsoluteWithoutMathAbs
         if(n<0)
             n=-n;
         System.out.print(n);
+        sc.close();
     }
 }

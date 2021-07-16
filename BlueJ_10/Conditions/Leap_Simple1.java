@@ -13,6 +13,7 @@ class Leap_Simple1
         else if(y%100!=0 && y%4==0)
             System.out.print("Leap");
         else
-            System.out.print("Not Leap");    
+            System.out.print("Not Leap");
+        sc.close();
     }
 }

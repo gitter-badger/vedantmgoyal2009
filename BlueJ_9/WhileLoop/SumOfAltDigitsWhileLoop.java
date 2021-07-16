@@ -18,5 +18,6 @@ public class SumOfAltDigitsWhileLoop
         }
         System.out.println("Sum of digits at Even : "+sumEven);
         System.out.println("Sum of digits at Odd : "+sumOdd);
+        sc.close();
     }
 }

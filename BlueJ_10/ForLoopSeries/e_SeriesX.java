@@ -11,5 +11,6 @@ class e_SeriesX {
             a=a*10+i;
             System.out.println(a);
         }
+        sc.close();
     }
 }

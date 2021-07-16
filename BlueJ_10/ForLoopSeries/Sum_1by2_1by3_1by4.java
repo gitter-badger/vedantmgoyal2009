@@ -15,5 +15,6 @@ class Sum_1by2_1by3_1by4
                 System.out.print(" + ");
         }
         System.out.println("\nSum : "+s);
+        sc.close();
     }
 }

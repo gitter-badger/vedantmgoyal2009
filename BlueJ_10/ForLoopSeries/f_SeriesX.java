@@ -13,5 +13,6 @@ public class f_SeriesX {
             if(i!=n-1)
                 System.out.print(", ");
         }
+        sc.close();
     }
 }

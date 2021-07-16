@@ -16,5 +16,6 @@ public class LucasTribonacci_0_1_2_3_6_11
             b=c;
             c=d;
         }
+        sc.close();
     }
 }

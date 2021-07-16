@@ -19,5 +19,6 @@ public class DownStar {
                 System.out.print("* ");
             System.out.println();
         }
+        sc.close();
     }
 }

@@ -35,5 +35,6 @@ public class DiamondOutline {
                     System.out.print("  ");
             System.out.println();
         }
+        sc.close();
     }
 }

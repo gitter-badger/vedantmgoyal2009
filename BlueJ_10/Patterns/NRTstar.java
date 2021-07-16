@@ -15,5 +15,6 @@ public class NRTstar {
                 System.out.print("* ");
             System.out.println();
         }
+        sc.close();
     }
 }

@@ -31,5 +31,6 @@ public class isbn_number {
         //catch(java.lang.Exception e){
         //    System.out.println("Error while reading data!");
         //}
+        sc.close();
     }
 }

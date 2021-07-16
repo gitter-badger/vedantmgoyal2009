@@ -12,5 +12,6 @@ class TableWhileLoop
             System.out.println(n*i);
             i++;
         }
+        sc.close();
     }
 }

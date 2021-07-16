@@ -22,5 +22,6 @@ class Series1_11_101_1001
         }
         System.out.println(a);
         System.out.println("Sum = "+s);
+        sc.close();
     }
 }

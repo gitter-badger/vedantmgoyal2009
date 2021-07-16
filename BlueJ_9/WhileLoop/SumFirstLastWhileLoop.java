@@ -19,5 +19,6 @@ class SumFirstLastWhileLoop
                 fd/=10;
             System.out.println("Sum of first and last digits = "+(fd+ld));
         }
+        sc.close();
     }
 }

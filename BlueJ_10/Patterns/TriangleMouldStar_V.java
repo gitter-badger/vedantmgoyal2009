@@ -15,5 +15,6 @@ public class TriangleMouldStar_V {
                 System.out.print("*");
             System.out.println();
         }
+        sc.close();
     }
 }

@@ -17,5 +17,6 @@ public class pdf_20 {
                 System.out.print((char)(96+j*2-1)+" ");
             System.out.println();
         }
+        sc.close();
     }
 }
