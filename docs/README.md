@@ -6,8 +6,8 @@
 - 📫 How to reach me ... vedantmgoyal2009@gmail.com
 
 ## Folders 📁
-- [BlueJ_10](<https://github.com/vedantmgoyal2009/vedantmgoyal2009/tree/main/BlueJ_10>) for Class 10 Programs.
-- [BlueJ_9](<https://github.com/vedantmgoyal2009/vedantmgoyal2009/tree/main/BlueJ_9>) for Class 9 Programs.
+- [BlueJ_10](/BlueJ_10) for Class 10 Programs.
+- [BlueJ_9](/BlueJ_9) for Class 9 Programs.
 
 [![CodeQL](https://github.com/vedantmgoyal2009/vedantmgoyal2009/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/vedantmgoyal2009/vedantmgoyal2009/actions/workflows/codeql-analysis.yml)
 [![Codacy Security Scan](https://github.com/vedantmgoyal2009/vedantmgoyal2009/actions/workflows/codacy-analysis.yml/badge.svg)](https://github.com/vedantmgoyal2009/vedantmgoyal2009/actions/workflows/codacy-analysis.yml)
