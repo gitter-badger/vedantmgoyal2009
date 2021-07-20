@@ -12,3 +12,4 @@
 [![CodeQL](https://github.com/vedantmgoyal2009/vedantmgoyal2009/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/vedantmgoyal2009/vedantmgoyal2009/actions/workflows/codeql-analysis.yml)
 [![Codacy Security Scan](https://github.com/vedantmgoyal2009/vedantmgoyal2009/actions/workflows/codacy-analysis.yml/badge.svg)](https://github.com/vedantmgoyal2009/vedantmgoyal2009/actions/workflows/codacy-analysis.yml)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/0ab7c5cabdfa451995ee519f2b4edf00)](https://www.codacy.com/gh/vedantmgoyal2009/vedantmgoyal2009/dashboard)
+[![CodeFactor](https://www.codefactor.io/repository/github/vedantmgoyal2009/vedantmgoyal2009/badge)](https://www.codefactor.io/repository/github/vedantmgoyal2009/vedantmgoyal2009)
