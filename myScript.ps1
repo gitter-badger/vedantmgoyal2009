@@ -34,12 +34,8 @@ if (-Not (Get-Command "winget" -ErrorAction "SilentlyContinue")) {
             $DownUrl = (winget show --manifest "$manifestPath" | Select-String -Pattern "Download Url").ToString()
             $trimUrl = $DownUrl.TrimStart("Download Url: ")
             $filename = ($trimUrl -split '\/')[-1]
-            try {
-                $responseTest = (Invoke-WebRequest -SkipHttpErrorCheck -Uri $trimUrl -Method Get -OutFile "$workingDir\$filename" -PassThru) | Select StatusCode
-                $responseCode = $responseTest.StatusCode
-            } catch {
-                $responseCode = $_.Exception.responseTest.StatusCode.value__
-            }
+            $responseTest = (Invoke-WebRequest -SkipHttpErrorCheck -Uri $trimUrl -Method Get -OutFile "$workingDir\$filename" -PassThru) | Select StatusCode
+            $responseCode = $responseTest.StatusCode
             Write-Host "$responseCode`: $trimUrl"
             "$responseCode`: $trimUrl" | Out-File -Append -FilePath $workingDir\log.txt
             Remove-Item $workingDir\$filename
