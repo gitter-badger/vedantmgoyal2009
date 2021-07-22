@@ -16,7 +16,12 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Run a one-line script
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      
+      - name: Run myScript.ps1
         shell: pwsh
         run: |
-          $PSVersionTable
+          Get-Location
+          ./myScript.ps1
