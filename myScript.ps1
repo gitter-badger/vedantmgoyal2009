@@ -1,6 +1,7 @@
 $workingDir = Get-Location
 $ProgressPreference = 'SilentlyContinue'
 $fileDownload = [System.Net.WebClient]::new()
+Import-Module -Name Appx -UseWindowsPowershell
 
 $fileDownload.DownloadFile("https://aka.ms/Microsoft.VCLibs.x64.14.00.Desktop.appx","$workingDir\Microsoft.VCLibs.x64.14.00.Desktop.appx") 
 Add-AppxPackage -Path "$workingDir\Microsoft.VCLibs.x64.14.00.Desktop.appx"
