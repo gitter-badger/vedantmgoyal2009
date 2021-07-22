@@ -23,5 +23,10 @@ jobs:
       - name: Run myScript.ps1
         shell: pwsh
         run: |
-          Get-Location
           ./myScript.ps1
+          
+      - name: Publish log.txt
+        uses: actions/upload-artifact@v2
+        with:
+          name: save-logs-txt
+          path: log.txt
