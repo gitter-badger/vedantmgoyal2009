@@ -21,10 +21,10 @@ jobs:
         uses: actions/checkout@v2
       
       - name: Run myScript.ps1
-        run: pwsh -Command ./myScript.ps1
+        run: pwsh -File ./myScript.ps1
           
-      - name: Publish log.txt
+      - name: Save wingetHttpCodes.txt
         uses: actions/upload-artifact@v2
         with:
-          name: save-logs-txt
-          path: log.txt
+          name: wingetHttpCodes
+          path: wingetHttpCodes.txt
