@@ -37,11 +37,7 @@ if (-Not (Get-Command "winget" -ErrorAction "SilentlyContinue")) {
             }
             Write-Host "$responseCode`: $trimUrl"
             "$responseCode`: $trimUrl" | Out-File -Append -FilePath $workingDir\log.txt
-            try {
-                Remove-Item $workingDir\$filename
-            } catch {
-                Write-Host "File cannot be downloaded."
-            }
+            Remove-Item $workingDir\$filename -ErrorAction Ignore
         }
     }
     Write-Host "Completed!"
