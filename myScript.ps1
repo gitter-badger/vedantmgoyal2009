@@ -18,7 +18,8 @@ explorer.exe "shell:appsFolder\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe!winge
 ### End 
 git clone https://github.com/microsoft/winget-pkgs.git
 if (-Not (Get-Command "winget" -ErrorAction "SilentlyContinue")) {
-    Write-Host "WinGet is not installed yet." -ForegroundColor Red
+    Write-Host "WinGet is not installed yet."
+    "WinGet is not installed yet." | Out-File -Append -FilePath $workingDir\log.txt
     return
 } else {
     Write-Host "`nChecking HTTP Response codes for Download URLs...`n"
