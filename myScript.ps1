@@ -1,6 +1,5 @@
 $workingDir = Get-Location
 $ProgressPreference = 'SilentlyContinue'
-<#
 $fileDownload = [System.Net.WebClient]::new()
 Import-Module -Name Appx -UseWindowsPowershell
 $fileDownload.DownloadFile("https://aka.ms/Microsoft.VCLibs.x64.14.00.Desktop.appx","$workingDir\Microsoft.VCLibs.x64.14.00.Desktop.appx") 
@@ -16,7 +15,7 @@ Install-Module NtObjectManager -Force
 $installationPath = (Get-AppxPackage Microsoft.DesktopAppInstaller).InstallLocation
 Set-ExecutionAlias -Path "C:\Windows\System32\winget.exe" -PackageName "Microsoft.DesktopAppInstaller_8wekyb3d8bbwe" -EntryPoint "Microsoft.DesktopAppInstaller_8wekyb3d8bbwe!winget" -Target "$installationPath\AppInstallerCLI.exe" -AppType Desktop -Version 3
 explorer.exe "shell:appsFolder\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe!winget"
-### End #>
+### End 
 git clone https://github.com/microsoft/winget-pkgs.git
 if (-Not (Get-Command "winget" -ErrorAction "SilentlyContinue")) {
     Write-Host "WinGet is not installed yet." -ForegroundColor Red
