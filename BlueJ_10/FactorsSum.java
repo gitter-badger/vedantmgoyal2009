@@ -2,8 +2,7 @@ package BlueJ_10;
 import java.util.*;
 class FactorsSum
 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter a no. : ");
         int n=sc.nextInt(),i,s=0;
