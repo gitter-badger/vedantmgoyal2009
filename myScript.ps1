@@ -35,4 +35,6 @@ Foreach($i in (Get-ChildItem -Path "$workingDir\winget-pkgs\manifests" -Director
         }
     }
 }
-Write-Host "`nCompleted!"
+Write-Host "Removing winget-pkgs"
+Remove-Item -Recurse winget-pkgs
+Write-Host "Completed!"
