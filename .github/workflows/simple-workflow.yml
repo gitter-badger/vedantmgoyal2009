@@ -28,8 +28,3 @@ jobs:
         with:
           name: wingetHttpCodes
           path: wingetHttpCodes.txt
-          
-      - name: Remove logs and clean up for next run
-        run: |
-          pwsh -Command "Remove-Item -Recurse winget-pkgs"
-          pwsh -Command "Remove-Item wingetHttpCodes.txt"
