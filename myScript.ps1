@@ -35,4 +35,4 @@ Foreach($i in (Get-ChildItem -Path "$workingDir\winget-pkgs\manifests" -Director
         }
     }
 }
-Write-Host "`nCompleted!"
+Write-Host "Completed!"
