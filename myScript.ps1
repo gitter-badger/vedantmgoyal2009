@@ -7,6 +7,9 @@ Foreach($i in (Get-ChildItem -Path "$workingDir\winget-pkgs\manifests" -Director
         if((Get-ChildItem -Path $i.FullName).Count -eq 1) {
             $installerYaml = Get-ChildItem -Path $i.FullName | Select FullName
             $DownUrl = ((Get-Content $installerYaml.FullName | Select-String -Pattern "InstallerUrl:").ToString()).TrimStart("InstallerUrl: ")
+            if ($DownUrl.Contains('"')) {
+                $DownUrl = $DownUrl.Trim('"')
+            }
             $filename = ($DownUrl -split '\/')[-1]
             try {
                 $responseTest = (Invoke-WebRequest -SkipHttpErrorCheck -Uri $DownUrl -Method Get -OutFile "$workingDir\$filename" -PassThru) | Select StatusCode
@@ -21,6 +24,9 @@ Foreach($i in (Get-ChildItem -Path "$workingDir\winget-pkgs\manifests" -Director
             $installerYaml = Get-ChildItem -Path $i.FullName -Filter "*installer*" | Select FullName
             Foreach($InstallUrls in (Get-Content $installerYaml.FullName | Select-String -Pattern "InstallerUrl:")) {
                 $DownUrl = ($InstallUrls.ToString()).TrimStart("InstallerUrl: ")
+                if ($DownUrl.Contains('"')) {
+                    $DownUrl = $DownUrl.Trim('"')
+                }
                 $filename = ($DownUrl -split '\/')[-1]
                 try {
                     $responseTest = (Invoke-WebRequest -SkipHttpErrorCheck -Uri $DownUrl -Method Get -OutFile "$workingDir\$filename" -PassThru) | Select StatusCode
