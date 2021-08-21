@@ -24,8 +24,7 @@ class checkArmstrongOrPalindromeSwitch
                     System.out.print("Not Armstrong number");
                 break;
             case 2:
-                while(n!=0)
-                {
+                while(n!=0) {
                     x=x*10+n%10;
                     n=n/10;
                 }
